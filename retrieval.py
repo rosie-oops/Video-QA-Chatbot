@@ -1,7 +1,3 @@
-"""
-Given a question and a video_id, retrieves the most relevant chunks
-for that specific video, reranks them, and generates an answer.
-"""
 
 from __future__ import annotations
 
@@ -37,8 +33,7 @@ def ask_question(query: str, video_id: str | None = None) -> str:
     client = get_client()
     query_embedding = embed_model.encode(query).tolist()
 
-    # Scope retrieval to a single video so answers can't accidentally
-    # pull chunks from a different video stored in the same collection.
+
     query_filter = None
     if video_id is not None:
         query_filter = Filter(
