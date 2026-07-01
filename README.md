@@ -78,11 +78,13 @@ Answer, shown in the Streamlit UI
 
 
 1. Clone the repository
+
 git clone https://github.com/your-username/vqacht.git
+
 cd vqacht
 
 
-2. Create virtual environment (recommended)
+3. Create virtual environment (recommended)
 python -m venv .venv
 # Windows
 .venv\Scripts\activate
