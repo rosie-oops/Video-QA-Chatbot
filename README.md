@@ -79,7 +79,7 @@ Answer, shown in the Streamlit UI
 
 1. Clone the repository
 
-git clone https://github.com/your-username/vqacht.git
+git clone https://github.com/rosie-oops/vqacht.git
 
 cd vqacht
 
