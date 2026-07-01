@@ -79,10 +79,11 @@ Answer, shown in the Streamlit UI
 
 1. Clone the repository
 
+```powershell
 git clone https://github.com/rosie-oops/Video-QA-Chatbot
 
 cd Video-QA-Chatbot
-
+```
 
 2. Create virtual environment (recommended)
    
@@ -115,8 +116,10 @@ $env:GROQ_API_KEY = "your-key-here"
 ```
 
 5. Run the App
-streamlit run app.py
-
+6. 
+ ```powershell
+ streamlit run app.py
+```
 Then open:
 
 http://localhost:8501
