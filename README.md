@@ -116,7 +116,7 @@ $env:GROQ_API_KEY = "your-key-here"
 ```
 
 5. Run the App
-6. 
+
  ```powershell
  streamlit run app.py
 ```
