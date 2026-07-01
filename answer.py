@@ -1,7 +1,3 @@
-"""
-Builds a context string from retrieved chunks and asks the LLM to
-answer strictly from that context, with timestamps.
-"""
 
 import os
 
@@ -13,8 +9,7 @@ _llm = None
 
 
 def _get_llm() -> ChatGroq:
-    # Lazy-loaded so a missing API key doesn't crash the whole app at
-    # import time -- it only fails when someone actually asks a question.
+
     global _llm
     if _llm is None:
         if not os.environ.get(config.GROQ_API_KEY_ENV_VAR):
