@@ -86,14 +86,17 @@ cd Video-QA-Chatbot
 ```
 
 2. Create virtual environment (recommended)
-   
+ ```powershell  
 python -m venv .venv
+```
 # Windows
+```powershell
 .venv\Scripts\activate
-
+```
 # Mac/Linux
+```powershell
 source .venv/bin/activate
-
+```
 
 3. Install dependencies
 
