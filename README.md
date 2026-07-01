@@ -79,9 +79,9 @@ Answer, shown in the Streamlit UI
 
 1. Clone the repository
 
-git clone https://github.com/rosie-oops/vqacht.git
+git clone https://github.com/rosie-oops/Video-QA-Chatbot
 
-cd vqacht
+cd Video-QA-Chatbot
 
 
 2. Create virtual environment (recommended)
