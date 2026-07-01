@@ -84,7 +84,8 @@ git clone https://github.com/your-username/vqacht.git
 cd vqacht
 
 
-3. Create virtual environment (recommended)
+2. Create virtual environment (recommended)
+   
 python -m venv .venv
 # Windows
 .venv\Scripts\activate
